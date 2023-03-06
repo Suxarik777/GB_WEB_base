@@ -1,0 +1,45 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    /*    и можем задать высоту по умолчанию 10 px*/
+    font-size: 20px;
+    background-color: bisque; /* можно также указать цвет RGB #fffffff
+
+/*    блоки страницы - границы  верстки
+margin - отвечает за отступы вне блока
+border - редко используются, иногда можно немного подчеркнуть несколько блоков
+padding - отвечает за отступы внутри блока*/
+}
+
+/*заголовки*/
+h1 {
+    font-size: 50px;
+    text-align: center;
+    margin: 0;
+    padding: 20px 0;
+    text-shadow: 2px 2px 1px white;
+}
+
+p,ul {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+    color: red;
+    /*font-family: 'Roboto', sans-serif;*/
+}
+
+body{
+    width: 1000px;
+
+    /*вспоминаем что это блоки верстки*/
+    margin: 0 auto;
+    border: 2px solid white;
+    padding: 0 20px 20px 20px; /*сверху, снизу, слева, справа*/
+
+
+    background-color: aliceblue;
+}
+img {
+    display: block;
+    margin: 0 auto; /*центрирование изображения*/
+}
+
