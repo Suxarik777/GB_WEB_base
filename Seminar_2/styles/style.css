@@ -1,0 +1,16 @@
+html {
+    color: black;
+}
+
+body {
+    background: darkred;
+}
+
+.mainhader {
+    color: darkcyan;
+}
+
+.secondheader{
+    outline: 4px solid rgba(220, 20, 60, 0.5);
+                                /* последнее значение прозрачность */
+}

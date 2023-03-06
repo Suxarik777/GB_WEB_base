@@ -1,0 +1,13 @@
+/*style_image*/
+
+/*плжключаем как к классам в начале .class*/
+.cat1 {
+    height: 200px;
+
+    /*отступ от картинки справа*/
+    margin-right: 30px;
+}
+
+.cat2{
+    height: 200px;
+}
