@@ -1,0 +1,19 @@
+.header_HW_2{
+    background-color: black;
+    border: 10px solid gray;
+    padding: 10px;
+    margin: 10px;
+    outline: 4px solid rgba(220, 20, 60, 0.5);
+}
+
+.block_21{
+    background-color: darkgray;
+    border: 10px solid gray;
+    padding: 10px;
+    margin: 10px;
+    height: 480px;
+}
+
+.footer_HW_2{
+    text-align: center;
+}
