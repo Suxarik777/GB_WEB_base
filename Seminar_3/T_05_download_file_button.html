@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+  <a href="one.zip" download="">Скачать</a>
+
+  <script>
+    let a = document.querySelector("a");
+    a.addEventListener("click", function (event){
+      let res = confirm("вы действительно хотите скачать?")
+      if (!res) {
+        event.preventDefault(); // метод предотвращения поведения по умолчанию
+        //return false; при вызове метода возвращать False и не нужно он false и отправляет
+      }
+    })
+  </script>
+
+</body>
+</html>

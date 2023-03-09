@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+    <input type="text">
+    <button>Поздороваться</button>
+
+    <script>
+
+        //доступ к элементам на странице
+        let  input = document.querySelector("input");
+        let button = document.querySelector("button");
+
+        //возьми слушатель, реагируй по клику вызове функцию которая сделает то что в кавычках
+        button.addEventListener('click', function (paragraph) {
+            // alert(`Привет, ${input.value}`)
+            paragraph.innerText = `Привет ${input.value}`
+        })
+
+        // let name = prompt("Как вас зову?", "Имя") //первый аргумент строка сверху, вторая строка подсказка
+        // alert(`Привет ${name}`);
+
+
+
+
+        // let name = "Ася";
+        // alert(`Привет ${name}`);
+
+
+        // let result = 158 + 2;
+        // alert(`результат: ${result}`); //можно передать что угодно -> будет String
+        // //обратные кавычки называются backtick
+    </script>
+
+</body>
+</html>
