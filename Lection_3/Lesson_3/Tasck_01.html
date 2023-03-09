@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+
+
+  <script>
+
+    let userAnswer = prompt('Зимой и летом одним цветом');
+    //тип данных object
+    if (userAnswer === ''){
+        alert('Пусто')
+    } else if (userAnswer.toLowerCase() === 'елка') { //привести значение в нижний регистр
+        alert('Молодец')
+    } else {
+        alert('Не угадал');
+    }
+    // console.log(userAnswer)
+    // проверка в консоле значения
+
+    //тернарный оператор
+    //(условие) ? Да : Нет
+
+    // (userAnswer === 'елка') ? alert('Молодец') : alert('не угадал');
+
+    //упрощаем ещё дальше
+
+    // alert(userAnswer === 'елка' ? 'Молодец' : 'не угадал');
+
+
+  </script>
+
+</body>
+</html>
