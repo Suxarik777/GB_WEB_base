@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HomeWork_3</title>
+
+    <link rel="stylesheet" href="styles_HW_3/style_HW3.css">
+
+
+
+</head>
+<body>
+    <!--PIP window https://sweetalert2.github.io-->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+    <div class="header_HW_3">
+        <h1 class="heading2">Практическое задание №3</h1>
+        <h2 class="heading2">Студента курса: Pазработчик</h2>
+        <h3 class="heading2">Гульцева Александра Андреевича</h3>
+        <h3 class="heading2">Специализация: Тестировщик</h3>
+    </div>
+
+
+    <div class="content_HW_3">
+        <p>
+            Привет! Как <strong>тебя</strong> зовут? <br>
+            <input type="text" placeholder="Имя?"> <br>
+            <button>Поздороваться</button>
+        </p>
+    </div>
+
+
+    <script>
+        let  userName = document.querySelector("input");
+        let button = document.querySelector("button");
+
+
+
+        button.addEventListener('click', function () {
+            helloUser()
+        })
+
+        function helloUser(paragraph){
+            if (!userName.value)
+                Swal.fire({
+                    icon: 'error',
+                    title: 'Введите имя',
+                    text: `и попробуйте ещё раз ;)`,
+                });
+            else
+                Swal.fire({
+                    icon: 'success',
+                    title: 'Привет!!!',
+                    text: `дорогой ${userName.value}`,
+                });
+        }
+
+    </script>
+
+</body>
+</html>

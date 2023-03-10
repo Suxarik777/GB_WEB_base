@@ -1,0 +1,22 @@
+.heading2 {
+    color: white;
+    /*background-color: black;*/
+    text-align: center;
+}
+
+.header_HW_3{
+    background-color: black;
+    border: 10px solid gray;
+    padding: 10px;
+    margin: 10px;
+    outline: 4px solid rgba(220, 20, 60, 0.5);
+}
+
+.content_HW_3{
+    background-color: darkgray;
+    border: 10px solid gray;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    /*height: 480px;*/
+}
